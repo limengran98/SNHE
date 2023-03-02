@@ -8,7 +8,7 @@ This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embeddin
 > torch-geometric==2.2.0 \
 > PyGCL==0.1.1 \
 > numpy==1.19.2 \
-> scikit_learn==1.0
+> scikit_learn==1.0 \
 GPU: GeForce RTX 3090 
 ## Dataset
 The data set is available at the following link
