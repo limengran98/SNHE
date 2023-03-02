@@ -3,10 +3,12 @@ This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embeddin
 
 ## Environment Settings
 > python==3.8.5 \
-> scipy==1.5.4 \
-> torch==1.7.0 \
+> scipy==1.6.2 \
+> torch==1.12.0 \
+> torch-geometric==2.2.0 \
+> PyGCL==0.1.1 \
 > numpy==1.19.2 \
-> scikit_learn==0.24.2
+> scikit_learn==1.0
 GPU: GeForce RTX 3090 
 ## Dataset
 The data set is available at the following link
