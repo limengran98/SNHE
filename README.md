@@ -1,5 +1,5 @@
 # SNHE
-This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embedding for Heterogeneous Information Network Learning". This code is referenced from https://raw.githubusercontent.com/liun-online/HeCo, thanks to the author's contribution.
+This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embedding for Heterogeneous Information Network Learning". This code is referenced from [https://raw.githubusercontent.com/liun-online/HeCo](https://github.com/liun-online/HeCo), thanks to the author's contribution.
 
 ## Environment Settings
 > python==3.8.5 \
