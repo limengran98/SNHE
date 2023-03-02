@@ -7,11 +7,11 @@ This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embeddin
 > torch==1.7.0 \
 > numpy==1.19.2 \
 > scikit_learn==0.24.2
-
+GPU: GeForce RTX 3090 
 ## Dataset
 The data set is available at the following link
 
-GPU: GeForce RTX 3090 
+
 ## Usage
 Fisrt, go into ./code, and then you can use the following commend to run our model: 
 > python main.py acm --gpu=0
