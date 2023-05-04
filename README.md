@@ -17,6 +17,7 @@ The data set is available at the following [link](https://github.com/liun-online
 ## Usage
 Fisrt, go into ./code, you can use the following commend to generate pre-training files
 > python pretrain.py
+
 and then you can use the following commend to run our model: 
 > python main.py acm --gpu=0
 
