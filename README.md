@@ -11,11 +11,13 @@ This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embeddin
 > scikit_learn==1.0 \
 GPU: GeForce RTX 3090 
 ## Dataset
-The data set is available at the following link
+The data set is available at the following [link](https://github.com/liun-online/HeCo/tree/main/data)
 
 
 ## Usage
-Fisrt, go into ./code, and then you can use the following commend to run our model: 
+Fisrt, go into ./code, you can use the following commend to generate pre-training files
+> python pretrain.py
+and then you can use the following commend to run our model: 
 > python main.py acm --gpu=0
 
 Here, "acm" can be replaced by "dblp", "aminer" or "imdb".
