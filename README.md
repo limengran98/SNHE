@@ -1,6 +1,6 @@
 # SNHE
 This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embedding for Heterogeneous Information Network Learning". This code is referenced from [https://raw.githubusercontent.com/liun-online/HeCo](https://github.com/liun-online/HeCo), thanks to the author's contribution.
-Note: This code has not been thoroughly verified and is only for learning and communication purposes. Please feel free to raise any questions or suggest better solutions by contacting limengran1998@163.com.
+
 ## Environment Settings
 > python==3.8.5 \
 > scipy==1.6.2 \
@@ -20,4 +20,5 @@ Fisrt, go into ./code, and then you can use the following commend to run our mod
 
 Here, "acm" can be replaced by "dblp", "aminer" or "imdb".
 
-
+## Contcat
+This code has not been thoroughly verified and is only for learning and communication purposes. Please feel free to raise any questions or suggest better solutions by contacting limengran1998@163.com.
