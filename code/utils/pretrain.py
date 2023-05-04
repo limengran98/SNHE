@@ -77,7 +77,7 @@ def pretrain_ae(model, feat,):
         optimizer.step()
         print('{} loss: {}'.format(epoch, loss)) 
 
-        torch.save(model.state_dict(), 'aminer.pkl')
+        torch.save(model.state_dict(), '../data/acm/acm.pkl')
 
 def preprocess_features(features):
     """Row-normalize feature matrix and convert to tuple representation"""
@@ -89,18 +89,10 @@ def preprocess_features(features):
     return features.todense()
 
 
-path = "/home/zhaojy/data/acm/"
+path = "../data/acm/"
 feat_p = sp.load_npz(path + "p_feat.npz")
 feat = torch.FloatTensor(preprocess_features(feat_p)).cuda()
 
-path = "/home/zhaojy//data/aminer/"
-feat_p = sp.eye(6564)
-feat = torch.FloatTensor(preprocess_features(feat_p)).cuda()
-
-
-#path = "/home/zhaojy//data/freebase/"
-#feat_p = sp.eye(3492)
-#feat = torch.FloatTensor(preprocess_features(feat_p)).cuda()
 model = AE(
             n_enc_1=500,
             n_enc_2=500,
