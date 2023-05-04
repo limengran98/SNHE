@@ -118,7 +118,11 @@ def train(a,b):
         f = open("./embeds/"+args.dataset+"/"+str(args.turn)+".pkl", "wb")
         pkl.dump(embeds.cpu().data.numpy(), f)
         f.close()
-
+#Recommended hyperparameters        
+#ACM 0.01 0.2
+#DBLP 0.2 0.0005
+#IMDB 0.1,0.1
+#Aminer 0.1 0.2
 
 if __name__ == '__main__':
     for a in [0.0001,0.0005,0.01,0.05,0.1,0.2,0.5,1]:
