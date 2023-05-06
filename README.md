@@ -11,7 +11,7 @@ This repo is for source code of paper "Self-supervised Nodes-Hyperedges Embeddin
 > scikit_learn==1.0 \
 GPU: GeForce RTX 3090 
 ## Dataset
-The data set is available at the following [link](https://github.com/liun-online/HeCo/tree/main/data)
+The data obtained from [link](https://github.com/liun-online/HeCo/tree/main/data) is approximate.
 
 
 ## Usage
